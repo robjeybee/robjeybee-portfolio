@@ -1,12 +1,13 @@
 import { useState } from 'react'
 
 import Header from './components/Header'
-import Main from './components/Main'
+import Main from './components/Hero'
 
 function App() {
 
   return (
     <>
+      <Header />
       <Main />
     </>
   )
