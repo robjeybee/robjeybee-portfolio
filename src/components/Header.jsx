@@ -3,12 +3,13 @@ import '../styles/header.scss'
 
 const Header = () => {
   return (
-    <div className='nav-container'>
-      <div className="nav-items">
-         <div>Logo</div>
-        <i class="fa-solid fa-bars"></i>
+    <div className='header'>
+      <div>
+        <img className="robjeybee-square-logo" src="/icons/robjeybee-square-logo.svg" alt="" />
       </div>
-       
+      <div>
+      <i class="fa-solid fa-bars"></i>
+      </div>
     </div>
   )
 }

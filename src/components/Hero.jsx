@@ -15,7 +15,7 @@ const Main = () => {
            
         </div>
         <div className='hero-img'>
-            <img className="hero-img-item" src="/images/robjeybee-blue-hero-image.svg" alt="" />
+            <img className="hero-img-item" src="/images/robjeybee-blue-shield.svg" alt="" />
         </div>
     </div>
   )

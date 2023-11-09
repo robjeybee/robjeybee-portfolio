@@ -1,3 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -12,4 +19,12 @@
     justify-content: space-between;
     width: 100%;
     padding: 10px;
+}
+
+.robjeybee-square-logo {
+    width: 50px;
+}
+
+.fa-bars {
+    font-size: 40px;
 }
