@@ -1,20 +1,19 @@
 import React from 'react'
-import '../styles/hero.scss'
+import '../styles/about.scss'
 
-const Main = () => {
+const About = () => {
   return (
     <div>
-    <div class="hero">
+    <div class="about">
 
-<div class="hero-content">Hero Content</div>
-<div class="hero-img">
+<div class="about-content">About Content</div>
+<div class="about-img">
 <img src="https://raw.githubusercontent.com/julien-gargot/images-placeholder/master/placeholder-square.png" alt="" />
 </div>
 </div>
 
 </div>
-    
   )
 }
 
-export default Main
+export default About
