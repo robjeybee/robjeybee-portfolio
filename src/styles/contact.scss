@@ -1,6 +1,6 @@
 .contact-container {
     width: 100%;
-    background-color: brown;
+    background: grey;
 }
 
 .contact-content {
@@ -18,7 +18,6 @@
     flex: 1 0 50%;
     box-sizing: border-box;
   }
-
 
 
   @media screen and (max-width: 767px) {
