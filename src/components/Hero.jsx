@@ -8,7 +8,7 @@ const Main = () => {
 
 <div class="hero-content">Hero Content</div>
 <div class="hero-img">
-<img src="https://raw.githubusercontent.com/julien-gargot/images-placeholder/master/placeholder-square.png" alt="" />
+    <img src="/public/images/project-placeholder-image.svg" alt="Project Placeholder Image of a yellow lightning bolt on a pink background" />
 </div>
 </div>
 
