@@ -8,7 +8,7 @@ const About = () => {
 
 <div class="about-content">About Content</div>
 <div class="about-img">
-<img src="/public/images/project-placeholder-image.svg" alt="Project Placeholder Image of a yellow lightning bolt on a pink background" />
+<img src="/images/project-placeholder-image.svg" alt="Project Placeholder Image of a yellow lightning bolt on a pink background" />
 </div>
 </div>
 
