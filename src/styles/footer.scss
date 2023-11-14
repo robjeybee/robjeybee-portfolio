@@ -38,6 +38,10 @@
     text-align: right;
 }
 
+.footer-social-icons {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
 
     .footer-content {
@@ -59,6 +63,10 @@
 
     .footer-content-left img {
         margin-right: 0;
+    }
+
+    .footer-social-icons {
+        display: inline-block;
     }
 
   }
