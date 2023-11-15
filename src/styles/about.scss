@@ -1,34 +1,28 @@
 .about {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.about-content,
+.about-img {
+  flex: 1 0 50%;
+  box-sizing: border-box;
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    flex-direction: column-reverse;
   }
-
 
   .about-content,
   .about-img {
-    flex: 1 0 50%;
-    box-sizing: border-box;
+    flex: 0 0 100%;
   }
-
-  .about-img img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-  }
-
-
-
-  @media screen and (max-width: 767px) {
-
-    .about {
-        flex-direction: column-reverse;
-    }
-
-    .about-content,
-    .about-img {
-      flex: 0 0 100%;
-    }
-
-  }
+}

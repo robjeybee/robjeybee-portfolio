@@ -1,31 +1,26 @@
 .hero {
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 1400px;
-      margin: auto;
-    
-    }
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: auto;
+}
 
+.hero-content,
+.hero-img {
+  flex: 1 0 50%;
+  box-sizing: border-box;
+}
 
-    .hero-content,
-    .hero-img {
-      flex: 1 0 50%;
-      box-sizing: border-box;
-    }
+.hero-img img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
 
-    .hero-img img {
-      width: 100%;
-      height: auto;
-      max-width: 100%;
-      display: block;
-    }
-
-  
-
-    @media screen and (max-width: 767px) {
-      .hero-content,
-      .hero-img {
-        flex: 0 0 100%;
-      }
-
-    }
+@media screen and (max-width: 767px) {
+  .hero-content,
+  .hero-img {
+    flex: 0 0 100%;
+  }
+}

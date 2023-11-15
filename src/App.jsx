@@ -1,15 +1,14 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import Header from './components/Header'
-import Main from './components/Hero'
-import Projects from './components/Projects'
-import Blog from './components/Blog'
-import About from './components/About'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Header from "./components/Header";
+import Main from "./components/Hero";
+import Projects from "./components/Projects";
+import Blog from "./components/Blog";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <>
       <Header />
@@ -20,7 +19,7 @@ function App() {
       <Contact />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
