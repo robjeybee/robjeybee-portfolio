@@ -2,6 +2,7 @@
   background-color: #f9f5f2;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 0;
 }
 
 .footer {
@@ -11,7 +12,7 @@
   align-items: center;
   margin: auto;
   max-width: 1400px;
-  padding: 50px 30px;
+  padding: 0px 30px;
 }
 
 .footer-content {
@@ -38,9 +39,6 @@
   text-align: right;
 }
 
-.footer-social-icons {
-  display: none;
-}
 
 @media screen and (max-width: 767px) {
   .footer-content {
@@ -64,7 +62,5 @@
     margin-right: 0;
   }
 
-  .footer-social-icons {
-    display: inline-block;
-  }
+
 }

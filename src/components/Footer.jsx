@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/footer.scss";
+import "../styles/socials.scss"
 import Socials from "./Socials";
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
               <p>Rob Barber</p>
               <p>Junior Developer</p>
             </div>
-            <Socials />
+            <Socials className="footer-social-icons" />
           </div>
           <div className="footer-content-right">
             <p>
