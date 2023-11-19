@@ -1,11 +1,48 @@
 .header-container {
-  background-color: orange;
   width: 100%;
+  padding: 10px 0;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  max-width: 1400px;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.nav-logo {
+  width: 70px;
+}
+
+.fa-bars, 
+.fa-xmark {
+  font-size: 40px;
+  display: none;
+}
+
+.nav-menu ul {
+  display: flex;
+  margin-right: 40px;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li:not(:first-child) {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .fa-bars,
+  .fa-xmark {
+      display: block;
+    }
+
+    
+  .nav-menu {
+    display: none;
+  }
 }

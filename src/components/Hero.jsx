@@ -12,10 +12,7 @@ const Main = () => {
           <button className="hero-button">View my work</button>
         </div>
         <div class="hero-img">
-          <img
-            src="/images/robjeybee-blue-shield.svg"
-            alt="Project Placeholder Image of a yellow lightning bolt on a pink background"
-          />
+          <img src="../public/images/robjeybee-blue-shield.svg" alt="" />
         </div>
       </div>
     </div>

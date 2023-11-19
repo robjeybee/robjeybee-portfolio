@@ -4,16 +4,25 @@ import "../styles/about.scss";
 const About = () => {
   return (
     <div>
-      <div class="about">
-        <div class="about-content">About Content</div>
+<div className="about">
+        <div className="about-content">
+          <div className="about-content-text">
+            <h3>About me</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, amet.</p>
+          </div>
+        </div>
         <div class="about-img">
           <img
-            src="/images/project-placeholder-image.svg"
+            src="/public/images/robjeybee-pink-square.svg"
             alt="Project Placeholder Image of a yellow lightning bolt on a pink background"
           />
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 

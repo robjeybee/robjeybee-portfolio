@@ -1,11 +1,10 @@
 .contact-container {
   width: 100%;
-  background: slateblue;
   padding: 100px 0;
 }
 
 .contact-container-header {
-  padding: 0 30px;
+  padding: 0 15px;
   padding-bottom: 10px;
   margin: auto;
   max-width: 1400px;
@@ -16,7 +15,7 @@
   flex-wrap: wrap;
   max-width: 1400px;
   margin: auto;
-  padding: 50px 30px;
+  padding: 50px 20px;
 }
 
 .contact-info,
@@ -28,7 +27,6 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .contact-form h2 {
@@ -37,14 +35,14 @@
 
 .contact-button {
   width: 200px;
-  align-self: end;
+  align-self: flex-end;
+
 }
 
 .contact-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: Arial, Helvetica, sans-serif;
   max-height: 250px;
 }
 
@@ -54,7 +52,6 @@
 
 input,
 textarea {
-  font-family: Arial, Helvetica, sans-serif;
   height: 54px;
   border: 1px solid black;
   box-shadow: 3px 3px 0 0 black;
@@ -73,13 +70,14 @@ textarea {
     transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: inline-block;
   outline: none;
+  margin-bottom: 15px;
 }
 
 textarea {
   min-height: 120px;
   text-align: left;
   border-radius: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   padding: 12px 32px;
   line-height: 160%;
   overflow: hidden;
@@ -100,7 +98,6 @@ textarea {
   font-weight: 600;
   line-height: 54px;
   text-decoration: none;
-  margin-top: -23px;
   transition:
     box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
     transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -129,5 +126,6 @@ button:hover {
 
     .contact-form h2 {
       display: block;
+      padding-bottom: 20px;
     }
 }
