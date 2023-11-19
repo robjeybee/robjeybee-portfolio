@@ -6,7 +6,7 @@ import Socials from "./Socials";
 const Contact = () => {
   return (
     <div>
-      <div class="contact-container">
+      <div className="contact-container" id="Contact">
         <div className="contact-container-header">
            <h2>Just say hi.</h2>
         </div>

@@ -12,7 +12,7 @@ const Main = () => {
           <button className="hero-button">View my work</button>
         </div>
         <div class="hero-img">
-          <img src="../public/images/robjeybee-blue-shield.svg" alt="" />
+          <img src="/images/robjeybee-blue-shield.svg" alt="" />
         </div>
       </div>
     </div>

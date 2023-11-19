@@ -1,8 +1,8 @@
 .header-container {
   width: 100%;
+  background-color: #ffffff;
+  position: fixed;
   padding: 10px 0;
-  max-width: 1400px;
-  margin: auto;
 }
 
 .nav {
@@ -10,10 +10,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px 15px;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .nav-logo {
-  width: 70px;
+  width: 60px;
 }
 
 .fa-bars, 
@@ -24,11 +26,11 @@
 
 .nav-menu ul {
   display: flex;
-  margin-right: 40px;
 }
 
 .nav-menu li {
   list-style: none;
+  cursor: pointer;
 }
 
 .nav-menu li:not(:first-child) {

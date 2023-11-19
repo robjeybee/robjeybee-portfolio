@@ -1,6 +1,7 @@
 .about {
   display: flex;
   flex-wrap: wrap;
+  background-color: #ffffff;
 }
 
 .about-content,
@@ -42,7 +43,7 @@
 
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1550px) {
   .about-content-text {
       padding: 15px;
     }

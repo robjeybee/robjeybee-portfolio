@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div class="about-img">
           <img
-            src="/public/images/robjeybee-pink-square.svg"
+            src="/images/robjeybee-pink-square.svg"
             alt="Project Placeholder Image of a yellow lightning bolt on a pink background"
           />
         </div>

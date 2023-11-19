@@ -14,7 +14,7 @@
 }
 
 .hero-content > * {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .hero-content,
@@ -25,11 +25,14 @@
 
 .hero-content h1 {
   font-weight: bold;
+  font-size: 4rem;
+  line-height: 62px;
 }
 
 .hero-content p {
   font-size: 24px;
-  color: darkblue;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
 }
 
 .hero-button {
@@ -50,6 +53,7 @@
     box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
     transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   display: inline-block;
+  margin-top: 20px;
 }
 
 .hero-button:hover {
