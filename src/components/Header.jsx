@@ -1,53 +1,30 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../styles/header.scss";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  useEffect(() => {
-    let prevScrollPos = window.pageYOffset;
-
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      const headerContainer = document.querySelector(".header-container");
-
-      if (prevScrollPos > currentScrollPos) {
-        headerContainer.style.top = "0";
-      } else {
-        headerContainer.style.top = "-110px";
-      }
-
-      prevScrollPos = currentScrollPos;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []); 
-
   return (
-    <div className="header-container">
-      <nav className="nav">
-        <div>
-          <img className="nav-logo" src="/icons/robjeybee-monochrome-square-logo.svg" alt="" />
+    <div className="header">
+      <div className="header-container">
+        <div className="header-logo">
+          <img
+            className="header-logo_img"
+            src="/public/icons/robjeybee-monochrome-square-logo.svg"
+            alt=""
+          />
         </div>
-        <i className={`fa-solid ${isMenuOpen ? 'fa-xmark' : 'fa-bars'}`} onClick={toggleMenu}></i>
-        <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
-          <ul>
-            <li><link /></li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Contact</li>
+        <nav className="nav">
+          <ul className="nav-links">
+            <li className="nav-links_item">Home</li>
+            <li className="nav-links_item">Projects</li>
+            <li className="nav-links_item">Blog</li>
+            <li className="nav-links_item">About</li>
+            <li className="nav-links_item">Contact</li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+        <FontAwesomeIcon className="fa-bars" icon={faBars} />
+      </div>
     </div>
   );
 };

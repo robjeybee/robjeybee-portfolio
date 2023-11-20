@@ -1,6 +1,13 @@
-.contact-container {
-  width: 100%;
-  padding: 100px 0;
+.contact {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: pink; 
+    border: 2px rebeccapurple solid;
 }
 
 .contact-container-header {
@@ -110,7 +117,38 @@ button:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
+.footer-component {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 100%;
+  margin-top: auto;
+  /* Push the footer to the bottom */
+}
+
+@media screen and (max-width: 1099px) {
+
+  .contact-info,
+  .contact-form {
+    flex: 0 0 100%;
+  }
+
+    .follow-header {
+      display: none;
+    }
+  
+    .contact-info {
+      height: 200px;
+    }
+  
+    .contact-form h2 {
+      display: block;
+      padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
   .contact-info,
   .contact-form {
     flex: 0 0 100%;
@@ -124,8 +162,8 @@ button:hover {
     height: 200px;
   }
 
-    .contact-form h2 {
-      display: block;
-      padding-bottom: 20px;
-    }
+  .contact-form h2 {
+    display: block;
+    padding-bottom: 20px;
+  }
 }

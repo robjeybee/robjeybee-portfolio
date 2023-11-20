@@ -29,4 +29,3 @@ const Socials = ({ className }) => {
 };
 
 export default Socials;
-
