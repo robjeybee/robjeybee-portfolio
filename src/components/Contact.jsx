@@ -2,12 +2,11 @@ import React from "react";
 import "../styles/contact.scss";
 import "../styles/socials.scss"
 import Socials from "./Socials";
-import Footer from "./Footer";
 
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="contact-container" id="Contact">
+      <div class="contact-container">
         <div className="contact-container-header">
            <h2>Just say hi.</h2>
         </div>
@@ -32,12 +31,9 @@ const Contact = () => {
               <input type="email" name="email" required placeholder="Your email*" />
               <textarea name="message" required placeholder="How can I help?*"></textarea>
               <button className="contact-button" type="submit">Get in touch</button>
-          </form>
-          
+            </form>
         </div>
-       
       </div>
-             <Footer className="footer-component" />
     </div>
   );
 };

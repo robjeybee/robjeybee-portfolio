@@ -1,50 +1,11 @@
-.header {
-    top: 0;
-    left: 0;
-    position: fixed;
+.header-container {
+    background-color: orange;
     width: 100%;
-    padding: 10px 0;
 }
 
-.header-container {
+.nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
-    max-width: 1400px;
     margin: auto;
-}
-
-.header-logo_img {
-    width: 60px;
-}
-
-.nav-links {
-    display: flex;
-}
-
-.fa-bars {
-    display: none;
-    font-size: 30px;
-}
-
-.nav-links_item {
-    list-style: none;
-    cursor: pointer;
-}
-
-.nav-links_item:not(:nth-child(1)) {
-    margin-left: 40px;
-}
-
-
-@media screen and (max-width: 767px) {
-
-    .fa-bars, {
-        display: block;
-    }
-
-    .nav-links {
-        display: none;
-    }
+    max-width: 1400px;
 }

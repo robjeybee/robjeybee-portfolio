@@ -1,11 +1,36 @@
 .about {
-    height: 100vh;
-      scroll-snap-align: start;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: orange;
-      scroll-snap-type: y mandatory;
-      scroll-behavior: smooth;
-      scroll-snap-points-y: repeat(100%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-content,
+.about-img {
+    flex: 1 0 50%;
+    box-sizing: border-box;
+}
+
+.about-content {
+    padding: 50px;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        padding: 130px 15px;
+    }
+
+    .about-content,
+    .about-img {
+        flex: 0 0 100%;
+    }
 }

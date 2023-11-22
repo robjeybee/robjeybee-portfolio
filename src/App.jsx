@@ -1,17 +1,21 @@
-import Main from "./components/Hero";
+import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <Main />
+      <Header />
+      <Hero />
       <Projects />
       <Blog />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 }
