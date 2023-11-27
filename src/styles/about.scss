@@ -11,22 +11,36 @@
 
 .about-content {
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content-copy > *{
+    padding-top: 16px;
+}
+
+.about-content-copy {
+    max-width: 600px;
+}
+
+
+
+.about-img {
+    background-color: gray;
+    display: flex;
 }
 
 .about-img img {
     width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
+    transform: scale(.75);
 }
 
 @media screen and (max-width: 767px) {
-    .about {
-        flex-direction: column-reverse;
-    }
 
     .about-content {
-        padding: 130px 15px;
+        padding: 15px;
+        padding-bottom: 130px;
     }
 
     .about-content,
