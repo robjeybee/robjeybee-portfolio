@@ -26,11 +26,6 @@ const About = () => {
               around the globe.
             </p>
 
-            <p>
-              Feeling curious or just fancy a digital coffee chat? Don't
-              hesitate to drop me a line. Let's connect, swap stories, and maybe
-              even crack some code together.
-            </p>
           </div>
         </div>
         <div class="about-img">

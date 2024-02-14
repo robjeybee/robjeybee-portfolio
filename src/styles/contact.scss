@@ -14,24 +14,30 @@
     max-width: 1400px;
 }
 
+.contact-info-text  {
+    max-width: 70%;
+}
+
+
+
 .contact-content {
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
     margin: auto;
     padding: 50px 30px;
+   
 }
 
 .contact-info,
 .contact-form {
     flex: 1 0 50%;
     box-sizing: border-box;
-        flex-direction: column;
+    flex-direction: column;
 }
 
 .contact-form {
     display: flex;
-
 }
 
 .contact-form > * {
@@ -109,7 +115,7 @@ textarea {
     margin-top: 5px;
 }
 
-button:hover {
+.contact-button:hover {
     box-shadow: 6px 6px 0 0 black;
     transform: translate(-4px, -4px);
     cursor: pointer;
