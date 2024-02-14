@@ -29,8 +29,8 @@ const Contact = () => {
               <h2>Or use the form below</h2>
               <input type="text" name="name" required placeholder="Your name*"/>
               <input type="email" name="email" required placeholder="Your email*" />
-              <textarea name="message" required placeholder="How can I help?*"></textarea>
-              <button className="contact-button" type="submit">Get in touch</button>
+            <textarea name="message" required placeholder="How can I help?*"></textarea>
+            <button className="contact-button" type="submit">Get in touch</button>
             </form>
         </div>
       </div>
