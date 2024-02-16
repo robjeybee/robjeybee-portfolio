@@ -1,31 +1,30 @@
 .fa-brands {
-    font-size: 30px;
-    color: black;
-
+  font-size: 30px;
+  color: black;
 }
 
 a {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 a:not(:first-child) {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .footer-social-icons {
-    display: none;
+  display: none;
 }
 
 .contact-social-icons {
-    display: flex;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
-    .contact-social-icons {
-        display: none;
-    }
+  .contact-social-icons {
+    display: none;
+  }
 
-    .footer-social-icons {
-        display: flex;
-    }
+  .footer-social-icons {
+    display: flex;
+  }
 }

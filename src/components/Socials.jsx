@@ -1,7 +1,14 @@
 import React from "react";
 import "../styles/socials.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter, faInstagram, faDev, faHashnode, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faTwitter,
+  faInstagram,
+  faDev,
+  faHashnode,
+  faSpotify,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Socials = ({ className }) => {
   return (

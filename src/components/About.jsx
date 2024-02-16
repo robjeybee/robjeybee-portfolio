@@ -25,7 +25,6 @@ const About = () => {
               pass to the thoughts and strategies of amazing developers from
               around the globe.
             </p>
-
           </div>
         </div>
         <div class="about-img">

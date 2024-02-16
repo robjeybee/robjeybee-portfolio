@@ -1,4 +1,3 @@
-
 import React from "react";
 import "../styles/projects.scss";
 
@@ -13,16 +12,16 @@ const Projects = () => {
             alt="Project Placeholder Image of a yellow lightning bolt on a pink background"
           />
         </div>
-              <div class="project-one-content">
-                  <ul>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                  </ul>
-                  <h3>This is the project</h3>
-                  <p>This is a description about the project and technologies used</p>
-                  <a href="">Take a closer look</a>
+        <div class="project-one-content">
+          <ul>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+          </ul>
+          <h3>This is the project</h3>
+          <p>This is a description about the project and technologies used</p>
+          <a href="">Take a closer look</a>
         </div>
       </div>
 
@@ -34,15 +33,15 @@ const Projects = () => {
           />
         </div>
         <div class="project-two-content">
-            <ul>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                  </ul>
-                  <h3>This is the project</h3>
-                  <p>This is a description about the project and technologies used</p>
-                  <a href="">Take a closer look</a>
+          <ul>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+          </ul>
+          <h3>This is the project</h3>
+          <p>This is a description about the project and technologies used</p>
+          <a href="">Take a closer look</a>
         </div>
       </div>
 
@@ -54,15 +53,15 @@ const Projects = () => {
           />
         </div>
         <div class="project-one-content">
-            <ul>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                  </ul>
-                  <h3>This is the project</h3>
-                  <p>This is a description about the project and technologies used</p>
-                  <a href="">Take a closer look</a>
+          <ul>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+          </ul>
+          <h3>This is the project</h3>
+          <p>This is a description about the project and technologies used</p>
+          <a href="">Take a closer look</a>
         </div>
       </div>
 
@@ -74,15 +73,15 @@ const Projects = () => {
           />
         </div>
         <div class="project-two-content">
-            <ul>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                      <li>CSS</li>
-                  </ul>
-                  <h3>This is the project</h3>
-                  <p>This is a description about the project and technologies used</p>
-                  <a href="">Take a closer look</a>
+          <ul>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+            <li>CSS</li>
+          </ul>
+          <h3>This is the project</h3>
+          <p>This is a description about the project and technologies used</p>
+          <a href="">Take a closer look</a>
         </div>
       </div>
     </div>

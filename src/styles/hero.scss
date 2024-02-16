@@ -1,78 +1,73 @@
 .hero {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1400px;
-    margin: auto;
-    padding: 150px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  margin: auto;
+  padding: 150px 0;
 }
 
 .hero-content {
   margin: auto;
-  
 }
 
 .hero-content h1 {
-    font-weight: 700;
-    font-size: 50px;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 .hero-content p {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .hero-content,
 .hero-img {
-    flex: 1 0 50%;
-    box-sizing: border-box;
+  flex: 1 0 50%;
+  box-sizing: border-box;
 }
 
 .hero-button {
-    height: 54px;
-    border: 1px solid black;
-    box-shadow: 3px 3px 0 0 black;
-    color: black;
-    background-color: #e2c100;
-    border-radius: 50px;
-    align-content: center;
-    justify-content: center;
-    align-self: start;
-    padding: 0 32px;
-    font-weight: 600;
-    line-height: 54px;
-    text-decoration: none;
-    transition:
-        box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
-        transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-    display: inline-block;
+  height: 54px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 0 0 black;
+  color: black;
+  background-color: #e2c100;
+  border-radius: 50px;
+  align-content: center;
+  justify-content: center;
+  align-self: start;
+  padding: 0 32px;
+  font-weight: 600;
+  line-height: 54px;
+  text-decoration: none;
+  transition:
+    box-shadow 0.25s cubic-bezier(0.645, 0.045, 0.355, 1),
+    transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: inline-block;
 }
 
 .hero-button:hover {
-    box-shadow: 6px 6px 0 0 black;
-    transform: translate(-4px, -4px);
-    cursor: pointer;
+  box-shadow: 6px 6px 0 0 black;
+  transform: translate(-4px, -4px);
+  cursor: pointer;
 }
 
 .hero-img {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-img img {
-    width: 80%;
-
+  width: 80%;
 }
 
 @media screen and (max-width: 767px) {
+  .hero {
+    padding: 0 15px;
+  }
 
-    .hero {
-        padding: 0 15px;
-    }
-
-    .hero-content,
-    .hero-img {
-        flex: 0 0 100%;
-    }
-
-
+  .hero-content,
+  .hero-img {
+    flex: 0 0 100%;
+  }
 }
