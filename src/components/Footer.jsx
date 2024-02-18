@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="footer-content-right">
             <p>
-              <i class="fa-regular fa-copyright"></i> 2023
+              <i class="fa-regular fa-copyright"></i> 2024
             </p>
             <p>robjeybee.com</p>
             <p>made with curiosity and lightning bolts</p>
