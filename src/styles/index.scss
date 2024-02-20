@@ -13,15 +13,20 @@
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+:root {
+  --primary-font-color: #282825;
+  --accent-color: #8d9199;
+  --cta-btn-color: #F7CD45;
 }
 
 body {
-  background-color: #f9f5f2;
   scroll-behavior: smooth;
 }

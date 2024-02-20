@@ -1,11 +1,50 @@
-.header-container {
-  background-color: orange;
-  width: 100%;
-}
-
-.nav {
+.navbar {
+  max-width: 1440px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  margin: auto;
-  max-width: 1400px;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo span {
+  color: var(--accent-color);
+}
+
+.robjeybee-lightning-bolt {
+  width: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: var(--primary-font-color);
+}
+
+.lets-talk-nav-btn {
+  border: 1px solid var(--primary-font-color);
+  box-shadow: 3px 3px 0 0 var(--primary-font-color);
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.faBars {
+  border: 1px solid var(--primary-font-color);
+  box-shadow: 3px 3px 0 0 var(--primary-font-color);
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.faArrowRightLong {
+  padding-left: 10px;
 }
