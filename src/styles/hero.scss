@@ -1,37 +1,41 @@
-.hero-container {
-  padding: 200px 15px;
+.hero {
+  padding: 150px 15px;
+
 }
 
 .hero-text {
-  max-width: 1440px;
   margin: auto;
+  max-width: 1440px;
 }
 
 .hero-text > * {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
+
 .hero-text-h1 {
-  width: 90%;
   font-size: 64px;
-  padding-bottom: 32px;
+  padding-bottom: 20px;
+  line-height: 64px;
 }
 
 .hero-text-p {
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 28px;
 }
 
 .hero-cta-btn {
-     border: 1px solid var(--primary-font-color);
-      box-shadow: 3px 3px 0 0 var(--primary-font-color);
-      background-color: var(--cta-btn-color);
-      border-radius: 8px;
-      padding: 10px 15px;
-      text-decoration: none;
-      color: var(--primary-font-color);
-      font-size: 20px;
-      font-weight: 500;
+border: 1px solid var(--primary-font-color);
+  box-shadow: 3px 3px 0 0 var(--primary-font-color);
+  background-color: var(--cta-btn-color);
+  border-radius: 8px;
+  padding: 15px 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-cta-btn:hover {
+  background-color: var(--btn-hover-color);
+  transition: .25s ease-in-out;
 }
 
 .hero-faArrowRightLong {

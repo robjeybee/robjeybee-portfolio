@@ -1,15 +1,17 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../styles/header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong, faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <div className="header-container">
+    <div className="header">
+        <div className="header-container">
       <div className="navbar">
         <div className="nav-logo">
-          <img className="robjeybee-lightning-bolt" src="/public/robjeybee-lightning-bolt.svg" alt="" />
-          <div>rob<span>jeybee.</span></div>
+          <img className="robjeybee-lightning-bolt" src="/robjeybee-lightning-bolt.svg" alt="" />
+          <div>robjeybee.</div>
         </div>
         <div className="nav-links">
           <a href="">LinkedIn</a>
@@ -19,6 +21,8 @@ const Header = () => {
         </div>
      </div>
     </div>
+    </div>
+    
   );
 };
 

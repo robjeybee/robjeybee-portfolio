@@ -1,15 +1,21 @@
+.header {
+  padding: 25px 15px;
+}
+
 .navbar {
   max-width: 1440px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 15px;
+  font-size: 16px;
+
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
+
 }
 
 .nav-logo span {
@@ -23,12 +29,17 @@
 .nav-links {
   display: flex;
   align-items: center;
+  justify-content: center;
+
 }
 
 .nav-links a {
-  margin-right: 20px;
   text-decoration: none;
   color: var(--primary-font-color);
+}
+
+.nav-links a:not(:last-child) {
+  margin-right: 30px;
 }
 
 .lets-talk-nav-btn {
@@ -38,11 +49,9 @@
   padding: 10px 15px;
 }
 
-.faBars {
-  border: 1px solid var(--primary-font-color);
-  box-shadow: 3px 3px 0 0 var(--primary-font-color);
-  border-radius: 8px;
-  padding: 10px 15px;
+.lets-talk-nav-btn:hover {
+  background-color: var(--btn-hover-color);
+    transition: .25s ease-in-out;
 }
 
 .faArrowRightLong {
