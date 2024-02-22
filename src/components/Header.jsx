@@ -14,8 +14,8 @@ const Header = () => {
           <div>robjeybee.</div>
         </div>
         <div className="nav-links">
-          <a href="">LinkedIn</a>
-          <a href="">GitHub</a>
+          <a href="" className="linkedin-nav-icon">LinkedIn</a>
+          <a href="" className="github-nav-icon">GitHub</a>
           <a href="" className="lets-talk-nav-btn">Let's talk<FontAwesomeIcon icon={faArrowRightLong} className="faArrowRightLong" /></a>
           <a href=""><FontAwesomeIcon icon={faBars} className="faBars"/></a>
         </div>

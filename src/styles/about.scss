@@ -13,7 +13,7 @@
 }
 
 .about-content {
-  padding: 50px 0;
+  padding: 50px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 767px) {
   .about-content {
-    padding: 25px;
+    padding: 15px;
   }
 
   .about-content,

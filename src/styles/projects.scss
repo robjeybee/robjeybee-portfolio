@@ -13,8 +13,7 @@
 
 .project-one,
 .project-two,
-.project-three,
-.project-four {
+.project-three {
   display: flex;
   flex-wrap: wrap;
 }
@@ -32,10 +31,10 @@
 
 .project-one-content,
 .project-two-content,
-.project-three-content,
-.project-four-content {
-  display: grid;
-    place-items: center;
+.project-three-content {
+  padding: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .project-one-img img {
@@ -71,21 +70,17 @@
   display: block;
 }
 
-.project-four-content,
-.project-four-img {
-  flex: 1 0 50%;
-  box-sizing: border-box;
-}
-
-.project-four-img img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  display: block;
-}
-
-ul {
+.project-stack-list {
   display: flex;
+  text-align: center;
+}
+
+.project-stack-list > * {
+border: 1px solid var(--primary-font-color);
+  box-shadow: 1px 1px 0 0 var(--primary-font-color);
+  flex-grow: 1;
+  border-radius: 4px;
+  padding: 4px;
 }
 
 li {

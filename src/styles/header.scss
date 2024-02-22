@@ -18,10 +18,6 @@
 
 }
 
-.nav-logo span {
-  color: var(--accent-color);
-}
-
 .robjeybee-lightning-bolt {
   width: 40px;
 }
@@ -56,4 +52,23 @@
 
 .faArrowRightLong {
   padding-left: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .header {
+    padding: 20px;
+  }
+  
+  .linkedin-nav-icon,
+  .github-nav-icon {
+    display: none;
+  }
+
+    .nav-links a:not(:last-child) {
+      margin-right: 10px;
+    }
+
+
 }

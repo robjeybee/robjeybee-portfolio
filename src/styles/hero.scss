@@ -41,3 +41,25 @@ border: 1px solid var(--primary-font-color);
 .hero-faArrowRightLong {
   padding-left: 10px;
 }
+
+@media screen and (max-width: 767px) {
+
+
+  .hero-text-h1 {
+      font-size: 32px;
+      padding: 15px 0px;
+      line-height: 36px;
+      margin-top: -25px;
+
+    }
+  
+    .hero-text-p {
+      font-size: 18px;
+    }
+
+     .hero-cta-btn {
+       padding: 10px 20px;
+       font-weight: 700;
+     }
+
+}
