@@ -4,9 +4,10 @@ import "../styles/about.scss";
 const About = () => {
   return (
     <div>
+       <h1 className="about-header-title">About me.</h1>
       <div className="about">
-        <div className="about-content">
-          <h3>About me.</h3>
+       
+        <div className="about-content-container">
           <div className="about-content-copy">
             <p>
               I'm press officer by day who's career switching into tech by
@@ -26,8 +27,14 @@ const About = () => {
               around the globe.
             </p>
           </div>
+          <div>
+            <div className="about-me-img" >
+            <img src="/about-me.png" alt="" />
+            </div>
+          
         </div>
-        <div class="about-img"></div>
+        </div>
+      
       </div>
     </div>
   );

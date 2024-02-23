@@ -1,45 +1,50 @@
 import React from "react";
 import "../styles/blog.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHashnode, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { faBook, faPodcast, faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="blog">
+      <h1  className="blog-header-title">Blogs.</h1>
       <div className="blog-container">
-        <div className="blog-content">
-          <div className="blog-info">
-            <div className="card">
-              <FontAwesomeIcon className="blog-icon" icon={faHashnode} />
-              <h2>My Bootcamp Diary</h2>
-              <p>
-                I kept a weekly diary of my bootcamp experience to give myself
-                the time to reflect on my progress when is was finished.
-              </p>
-              <button className="blog-button">
-                <a href="https://mybootcampdiary.hashnode.dev/" target="blank">
-                  Read more
-                </a>
-              </button>
+        <div className="blog-item">
+          <div className="blog-item-card">
+            <div>
+              <FontAwesomeIcon icon={faBook} className="blog-fa-icon" />
             </div>
+            <div className="blog-content">
+              <h2 className="blog-card-title">A bootcampers diary</h2>
+              <div className="blog-text">
+                <p>
+                  Keeping a diary of my experience at the Coding Bootcamp, "Command Shift," is a reflection of my coding evolution. From conquering challenges to collaborating with peers, each entry captures the highs and lows, showcasing the progression of my technical skills and problem-solving abilities. This diary is more than a record; it's a narrative of growth and transformation within the supportive and dynamic environment of Command Shift. Each entry marks a step towards becoming a more confident and skilled coder, turning the bootcamp experience into a personal coding saga.
+                </p>
+              </div>
+            </div>
+             <FontAwesomeIcon
+                icon={faArrowRightLong}
+                className="blog-faArrowRightLong"
+              />
           </div>
-          <div className="blog-form">
-            <FontAwesomeIcon className="blog-icon" icon={faSpotify} />
-            <h2>The Codewords Podcast</h2>
-            <p>
-              Welcome to Codewords, a podcast for developers by developers. Join
-              us for an informal coffee chat with code newbies, senior engineers
-              and more. Wherever you are on your unique coding journey, we’ve
-              got you covered.{" "}
-            </p>
-            <button className="blog-button">
-              <a
-                href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9"
-                target="blank"
-              >
-                Listen now
-              </a>
-            </button>
+        </div>
+
+        <div className="blog-item">
+          <div className="blog-item-card">
+            <div>
+              <FontAwesomeIcon icon={faPodcast} className="blog-fa-icon" />
+            </div>
+            <div className="blog-content">
+              <h2 className="blog-card-title">A bootcampers diary</h2>
+              <div className="blog-text">
+                <p>
+                 Welcome to Codewords, a podcast crafted by developers for developers. The inspiration behind creating this podcast stems from the desire to establish a space where individuals at every stage of their coding journey can find relatability, insights, and camaraderie. Whether you're a code newbie taking your first steps, a seasoned senior engineer navigating complex challenges, or anywhere in between, Codewords is here for you. Join us for casual and informative coffee chats, where we explore the diverse experiences, lessons learned, and valuable perspectives within the world of coding. Together, let's build a community that supports and enriches each unique coding adventure.
+                </p>
+              </div>
+               <FontAwesomeIcon
+                icon={faArrowRightLong}
+                className="blog-faArrowRightLong"
+              />
+            </div>
           </div>
         </div>
       </div>

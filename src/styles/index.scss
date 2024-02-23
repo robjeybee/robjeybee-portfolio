@@ -13,7 +13,7 @@
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
   margin: 0;
@@ -24,9 +24,12 @@
 :root {
   --primary-font-color: #282825;
   --accent-color: #8d9199;
-  --cta-btn-color: #F7CD45;
-  --btn-hover-color: #23A094;
-  --stack-list-color: #E94C89;
+  --cta-btn-color: #f7cd45;
+  --btn-hover-color: #23a094;
+  --stack-list-color: #e94c89;
+  --blog-accent-color: #91A8ED;
+  --alternate-bg-color: #ebebeb;
+  --project-bg-color-1: #23A094;
 }
 
 body {

@@ -9,13 +9,11 @@
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
-
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
-
 }
 
 .robjeybee-lightning-bolt {
@@ -26,7 +24,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .nav-links a {
@@ -49,28 +46,24 @@
 
 .lets-talk-nav-btn:hover {
   background-color: var(--btn-hover-color);
-    transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .faArrowRightLong {
   padding-left: 10px;
 }
 
-
 @media screen and (max-width: 767px) {
-
   .header {
     padding: 20px;
   }
-  
+
   .linkedin-nav-icon,
   .github-nav-icon {
     display: none;
   }
 
-    .nav-links a:not(:last-child) {
-      margin-right: 10px;
-    }
-
-
+  .nav-links a:not(:last-child) {
+    margin-right: 10px;
+  }
 }
