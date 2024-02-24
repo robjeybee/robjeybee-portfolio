@@ -18,10 +18,10 @@ const Header = () => {
             <div>robjeybee.</div>
           </div>
           <div className="nav-links">
-            <a href="" className="linkedin-nav-icon">
+            <a href="https://www.linkedin.com/in/robjeybee/" className="linkedin-nav-icon" target="_blank">
               LinkedIn
             </a>
-            <a href="" className="github-nav-icon">
+            <a href="https://github.com/robjeybee" className="github-nav-icon" target="_blank">
               GitHub
             </a>
             <a href="" className="lets-talk-nav-btn">
