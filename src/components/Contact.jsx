@@ -13,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_8v342ta", "template_e4l1qt5", form.current, {
+      .sendForm("service_8v342ta", "template_n3hgqj9", form.current, {
         publicKey: "J0fxCNHKRodAzIWtI",
       })
       .then(
@@ -76,7 +76,7 @@ const Contact = () => {
             <label>Name</label>
             <input
               type="text"
-              name="user_name"
+              name="senders_name"
               placeholder="Your name"
               required
             />
@@ -84,7 +84,7 @@ const Contact = () => {
             <label>Email</label>
             <input
               type="email"
-              name="user_email"
+              name="senders_email"
               placeholder="Your email"
               required
             />
@@ -94,7 +94,7 @@ const Contact = () => {
 
             <label>Message</label>
             <textarea
-              name="user_message"
+              name="senders_message"
               placeholder="Let me talk to ya! Yeah!"
               required
             />
