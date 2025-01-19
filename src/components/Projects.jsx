@@ -16,10 +16,10 @@ const Projects = () => {
           <div class="project-one-content">
             <div className="project-one-content-txt">
               <ul className="project-stack-list">
-                <li>HTML</li>
-                <li>React</li>
-                <li>Firebase</li>
-                <li>Tailwind</li>
+                <li className="project-stack-list-li">HTML</li>
+                <li className="project-stack-list-li">React</li>
+                <li className="project-stack-list-li">Firebase</li>
+                <li className="project-stack-list-li">Tailwind</li>
               </ul>
               <h3>KitStack App</h3>
               <p>
@@ -48,11 +48,11 @@ const Projects = () => {
           <div class="project-two-content">
             <div className="project-two-content-txt">
               <ul className="project-stack-list">
-                <li>HTML</li>
-                <li>React</li>
-                <li>Vanilla CSS</li>
-                <li>NASA API</li>
-                <li>Vercel</li>
+                <li className="project-stack-list-li">HTML</li>
+                <li className="project-stack-list-li">React</li>
+                <li className="project-stack-list-li">Vanilla CSS</li>
+                <li className="project-stack-list-li">NASA API</li>
+                <li className="project-stack-list-li">Vercel</li>
               </ul>
               <h3>NASA Image Generator</h3>
               <p>
@@ -79,10 +79,10 @@ const Projects = () => {
           <div class="project-three-content">
             <div className="project-three-content-txt">
               <ul className="project-stack-list">
-                <li>HTML</li>
-                <li>Postman</li>
-                <li>PostegSQL</li>
-                <li>Express.js</li>
+                <li className="project-stack-list-li">HTML</li>
+                <li className="project-stack-list-li">Postman</li>
+                <li className="project-stack-list-li">PostegSQL</li>
+                <li className="project-stack-list-li">Express.js</li>
               </ul>
               <h3>Music Library</h3>
               <p>

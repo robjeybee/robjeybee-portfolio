@@ -15,7 +15,7 @@ padding: 100px;
 }
 
 .projects {
-  padding: 50px 0;
+  padding: 50px 1;
   
 }
 
@@ -81,13 +81,16 @@ padding: 100px;
 
 .project-stack-list {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   text-align: center;
+  gap: 10px;
 }
 
-.project-stack-list > * {
-  border: 1px solid var(--primary-font-color);
-  border-radius: 4px;
-  padding: 2px 8px;
+.project-stack-list-li {
+  padding: 5px 10px;
+  border-radius: 8px;
+  flex-wrap: wrap;
 }
 
 .project-one-content,
@@ -151,4 +154,8 @@ li:not(:last-child) {
   .project-four-img {
     flex: 0 0 100%;
   }
+
+    .project-stack-list-li {
+      font-size: 14px;
+    }
 }

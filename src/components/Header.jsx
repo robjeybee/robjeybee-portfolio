@@ -18,6 +18,7 @@ const Header = () => {
             <div>robjeybee.</div>
           </div>
           <div className="nav-links">
+            <a href="#contact-me">Contact me</a>
             <a href="https://www.linkedin.com/in/robjeybee/" className="linkedin-nav-icon" target="_blank">
               LinkedIn
             </a>
