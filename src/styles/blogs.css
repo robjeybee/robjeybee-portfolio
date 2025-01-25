@@ -1,0 +1,24 @@
+.blogs-container {
+    padding: 20px;
+}
+
+.blogs {
+    border-bottom: 1px solid black;
+        padding: 50px 0;
+        max-width: 1400px;
+        margin: 0 auto;
+}
+
+.blogs > * {
+    padding: 10px 0;
+}
+
+.blog-cards > * {
+    padding: 50px 0;
+}
+
+.blog-cards img {
+    width: 100%;
+        height: 350px;
+        object-fit: cover;
+}

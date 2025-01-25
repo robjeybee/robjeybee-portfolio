@@ -1,6 +1,21 @@
+.hero-container {
+    padding: 20px;
+}
+
+
 .hero {
-    height: 1000px;
-    background-color: red;
-        top: 65px;
-        position: relative;
+    text-align: center;
+    padding: 50px 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero > * {
+    padding: 10px 0;
 }

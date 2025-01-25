@@ -30,7 +30,7 @@ const Header = () => {
         <div className="desktop-nav">
           <ul>
             <li><a href="#projects">Projects</a></li>
-            <li>Blogs</li>
+            <li><a href="#blogs">Blogs</a></li>
             <li>Contact</li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ const Header = () => {
             <a href="#projects" onClick={closeMenu}>Projects</a>
           </li>
           <li className="mobile-nav-menu-list-item">
-            <a href="#">Blogs</a>
+            <a href="#blogs" onClick={closeMenu}>Blogs</a>
           </li>
           <li className="mobile-nav-menu-list-item">
             <a href="#">Contact</a>
