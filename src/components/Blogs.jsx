@@ -16,7 +16,7 @@ const Blogs = () => {
           </p>
           <div className="blog-cards">
             <div className="blog-card-codewords blog-card">
-              <img src="/public/codewords-logo.png" alt="" />
+              <img src="/codewords-logo.png" alt="" />
               <h3>Codewords</h3>
               <p>
                 A podcast for developers by developers. Join us for an informal
@@ -30,7 +30,7 @@ const Blogs = () => {
                                   /></a>
             </div>
             <div className="blog-card-hashnode blog-card">
-              <img src="/public/bootcamp-logo.png" alt="" />
+              <img src="/bootcamp-logo.png" alt="" />
               <h3>Hasnode</h3>
               <p>
                 Join me on this transformative journey as I document my Command
