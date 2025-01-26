@@ -1,8 +1,8 @@
 .header-container {
-    background-color: white;
-    width: 100%;
-    z-index: 10;
-    position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
 }
 
 .header {
@@ -109,9 +109,9 @@
     width: 300px;
   }
 
-        .desktop-nav li {
-            font-weight: bold;
-        }
+  .desktop-nav li {
+    font-weight: bold;
+  }
 
   .nav-hamburger-toggle {
     display: none;

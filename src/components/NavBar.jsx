@@ -23,24 +23,30 @@ const Header = () => {
   return (
     <>
       <div className="header-container">
-           <div className="header">
-        <nav className="nav">
-          <h1 className="nav-logo">robjeybee</h1>
-        </nav>
-        <div className="desktop-nav">
-          <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#blogs">Blogs</a></li>
-            <li>Contact</li>
-          </ul>
+        <div className="header">
+          <nav className="nav">
+            <h1 className="nav-logo">robjeybee</h1>
+          </nav>
+          <div className="desktop-nav">
+            <ul>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#blogs">Blogs</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div className="nav-hamburger-toggle" onClick={toggleMenu}>
+            <FontAwesomeIcon
+              icon={isMenuOpen ? faX : faBars}
+              className="fa-bars fa-x"
+            />
+          </div>
         </div>
-        <div className="nav-hamburger-toggle" onClick={toggleMenu}>
-          <FontAwesomeIcon
-            icon={isMenuOpen ? faX : faBars}
-            className="fa-bars fa-x"
-          />
-        </div>
-      </div>
       </div>
       <div
         className={`mobile-nav-menu ${
@@ -49,13 +55,17 @@ const Header = () => {
       >
         <ul className="mobile-nav-menu-list">
           <li className="mobile-nav-menu-list-item">
-            <a href="#projects" onClick={closeMenu}>Projects</a>
+            <a href="#projects" onClick={closeMenu}>
+              Projects
+            </a>
           </li>
           <li className="mobile-nav-menu-list-item">
-            <a href="#blogs" onClick={closeMenu}>Blogs</a>
+            <a href="#blogs" onClick={closeMenu}>
+              Blogs
+            </a>
           </li>
           <li className="mobile-nav-menu-list-item">
-            <a href="#">Contact</a>
+            <a href="#contact" onClick={closeMenu}>Contact</a>
           </li>
         </ul>
         <ul className="mobile-social-icons">

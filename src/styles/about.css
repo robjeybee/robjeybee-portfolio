@@ -1,0 +1,28 @@
+.about-container {
+    padding: 20px;
+}
+
+.about {
+    padding: 100px 0;
+    border-bottom: 1px solid black;
+}
+
+.about > * {
+    padding: 8px 0;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.email-cta {
+    padding-top: 20px;
+}
+
