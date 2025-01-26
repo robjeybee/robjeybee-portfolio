@@ -38,7 +38,7 @@ const Blogs = () => {
             <div className="blog-card-hashnode blog-card">
               <img src="/bootcamp-logo.png" alt="" />
               <div className="blog-card-content">
-                   <h3>Hasnode</h3>
+                   <h3>Hashnode</h3>
               <p>
                 Join me on this transformative journey as I document my Command
                 Shift bootcamp experience, sharing the highs, the hurdles, and
