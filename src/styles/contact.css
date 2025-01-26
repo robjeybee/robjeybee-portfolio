@@ -4,4 +4,36 @@
 
 .contact {
     padding: 100px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.contact > * {
+    padding-bottom: 10px;
+}
+
+.contact h3 {
+    font-size: 30px;
+}
+
+.contact-social-list {
+    list-style: none;
+    display: flex;
+    width: 250px;
+    align-self: flex-end;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-description {
+    padding: 20px 0;
+}
+
+@media only screen and (min-width: 800px) {
+    .contact {
+        max-width: 600px;
+    }
 }

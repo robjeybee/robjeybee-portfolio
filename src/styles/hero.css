@@ -4,15 +4,13 @@
 
 .hero {
   text-align: center;
-  padding: 0px 10px;
+  padding: 300px 10px;
   height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 85%;
   margin: 0 auto;
-  height: 100vh;
 }
 
 .hero h1 {
@@ -52,8 +50,34 @@ span {
   font-weight: bold;
 }
 
+.hero-social-links {
+    display: none;
+}
+
 @media only screen and (min-width: 800px) {
   .hero {
     max-width: 1400px;
   }
-}
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .hero p {
+      font-size: 28px;
+      line-height: 36px;
+      width: 1000px;
+  }
+
+  .hero-social-links {
+    display: flex;
+   
+  }
+  .hero-social-links li {
+    list-style: none;
+    flex-direction: row;
+    }
+  }
+  
+

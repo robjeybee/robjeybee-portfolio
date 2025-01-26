@@ -5,9 +5,7 @@
 .projects {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-  padding: 100px 0;
-  max-width: 1400px;
-  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .project-intro > * {
@@ -57,4 +55,42 @@
 
 .stack {
   font-weight: bold;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .projects img {
+        width: 1080px;
+        height: 600px;
+        max-width: 100%;
+    }
+
+    .projects {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .primary-project {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    .secondary-projects {
+        display: flex;
+        gap: 40px;
+        max-width: 1080px;
+            margin: 0 auto;
+            padding-top: 50px;
+    }
+
+    .secondary-projects img {
+        height: 500px;
+    }
+
+    .project-intro {
+        text-align: center;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
 }

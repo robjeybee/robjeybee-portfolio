@@ -37,3 +37,43 @@
   height: 350px;
   object-fit: cover;
 }
+
+@media only screen and (min-width: 800px) {
+
+.blog-cards>* {
+        padding: 10px 0;
+    }
+
+    .blog-cards {
+        display: flex;
+        flex-direction: column;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+
+    .blog-intro {
+        max-width: 1080px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .blog-intro > * {
+        padding-bottom: 30px;
+    }
+
+    .blog-card {
+        display: flex;
+    }
+    .blog-cards img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .blog-card-content {
+        padding: 20px;
+    }
+
+    .blog-card-content > * {
+        padding-bottom: 20px;
+    }
+}

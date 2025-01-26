@@ -1,0 +1,13 @@
+.footer-container {
+    padding: 20px;
+    border-top: 1px solid black;
+    padding: 100px 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer > * {
+    padding: 10px 0;
+}

@@ -25,6 +25,14 @@ const Hero = () => {
               />
             </a>
           </p>
+          <div className="hero-social-links">
+            <ul>
+              <li>LinkedIn</li>
+              <li>GitHub</li>
+              <li>Codewords</li>
+              <li>Hashnode</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
