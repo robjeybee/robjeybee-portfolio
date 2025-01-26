@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <div className="hero-container">
         <div className="hero">
-          <img src="/public/Rob .png" alt="" />
+          <img src="/Rob .png" alt="" />
           <h1>Hey I’m Rob, and I am a junior fullstack developer.</h1>
           <p>
             Career switching into tech with a background in public relations and
