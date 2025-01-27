@@ -26,11 +26,19 @@ const Hero = () => {
             </a>
           </p>
           <div className="hero-social-links">
-            <ul>
-              <li>LinkedIn</li>
-              <li>GitHub</li>
-              <li>Codewords</li>
-              <li>Hashnode</li>
+            <ul className="hero-social-links-list">
+              <li>
+                <a href="#">LinkedIn</a>
+              </li>
+              <li>
+                <a href="#">GitHub</a>
+              </li>
+              <li>
+                <a href="#">Codewords</a>
+              </li>
+              <li>
+                <a href="#">Hashnode</a>
+              </li>
             </ul>
           </div>
         </div>

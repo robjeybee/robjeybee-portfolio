@@ -65,7 +65,9 @@ const Header = () => {
             </a>
           </li>
           <li className="mobile-nav-menu-list-item">
-            <a href="#contact" onClick={closeMenu}>Contact</a>
+            <a href="#contact" onClick={closeMenu}>
+              Contact
+            </a>
           </li>
         </ul>
         <ul className="mobile-social-icons">
