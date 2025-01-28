@@ -1,11 +1,14 @@
 .contact-container {
   border: solid red 1px;
+  padding: 20px;
 }
 
 .contact {
   max-width: 1400px;
   margin: 0 auto;
   border: solid red 1px;
+  padding: 300px 0;
+    
 }
 
 .contact > * {

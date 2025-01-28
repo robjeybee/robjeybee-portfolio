@@ -6,6 +6,8 @@
 .footer {
   text-align: center;
   border: solid red 1px;
+  padding: 300px 0;
+
 }
 
 .footer > * {

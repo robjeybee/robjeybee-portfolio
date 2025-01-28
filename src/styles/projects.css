@@ -1,15 +1,9 @@
 .projects-container {
+  padding: 20px;
 }
 
 .projects {
-  border-bottom: 1px solid black;
-}
-
-.project-intro > * {
-}
-
-.project-intro h1 {
-  font-size: 22px;
+  border-bottom: 1px solid black; 
 }
 
 .project-intro p {
@@ -20,13 +14,8 @@
 .projects img {
   width: 100%;
   height: 350px;
+  padding: 0;
   object-fit: cover;
-}
-
-.project-card > * {
-}
-
-.project-card {
 }
 
 .project-card a {
@@ -61,7 +50,7 @@
 
   .projects {
     max-width: 1400px;
-    padding: 0;
+    padding: 25px;
     margin: 0 auto;
     border: solid red 1px;
   }

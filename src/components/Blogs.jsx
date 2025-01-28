@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Blogs = () => {
   return (
     <>
-      <div className="blogs-container">
+      <div className="blogs-container" id="blogs">
         <div className="blogs">
-          <div className="blog-intro" id="blogs">
+          <div className="blog-intro" >
             <h2>articles and podcasts</h2>
             <p>
               Explore a collection of articles and engaging podcasts designed to

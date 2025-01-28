@@ -1,5 +1,6 @@
 .blogs-container {
   border: solid red 1px;
+  padding: 20px;
 }
 
 .blogs {
@@ -42,8 +43,7 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .blog-cards > * {
-  }
+
 
   .blog-cards {
     display: flex;
@@ -52,8 +52,6 @@
     margin: 0 auto;
   }
 
-  .blog-intro > * {
-  }
 
   .blog-card {
     display: flex;

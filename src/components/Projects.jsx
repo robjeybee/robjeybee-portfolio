@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Projects = () => {
   return (
     <>
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         <div className="projects">
-          <div className="project-intro" id="projects">
+          <div className="project-intro" >
             <h2>my projects</h2>
             <p>
               Dive into my collection of creations, each project is a stepping

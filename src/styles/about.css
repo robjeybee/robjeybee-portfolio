@@ -1,12 +1,11 @@
 .about-container {
+  padding: 20px;
 }
 
 .about {
   border-bottom: 1px solid black;
 }
 
-.about-content > * {
-}
 
 .about p {
   font-size: 18px;
@@ -19,8 +18,6 @@
   color: black;
 }
 
-.email-cta {
-}
 
 .about-img {
   width: 100%;

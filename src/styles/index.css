@@ -6,12 +6,6 @@
   font-family: "Wix Madefor Display", serif;
 }
 
-body {
-  border: solid red 1px;
-  position: relative;
-  top: 69px;
-}
-
 :root {
   --primary-font-color: #282825;
   --accent-color: #8d9199;
@@ -21,4 +15,13 @@ body {
   --blog-accent-color: #91a8ed;
   --alternate-bg-color: #ebebeb;
   --project-bg-color-1: #23a094;
+}
+
+body {
+  position: relative;
+  top: 70px;
+}
+
+html {
+  scroll-padding-top: 69px;
 }
