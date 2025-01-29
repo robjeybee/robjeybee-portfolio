@@ -8,14 +8,18 @@ const Hero = () => {
     <>
       <div className="hero-container">
         <div className="hero">
-          <img src="/Rob .png" alt="" />
+          <div>
+            <div className="hero-content">
+                    <img src="/Rob .png" alt="" />
           <h1>Hey I’m Rob, and I am a junior fullstack developer.</h1>
           <p>
             Career switching into tech with a background in public relations and
             communications - specialising in <span>React</span> and{" "}
-            <span>JavaScript</span>.
-          </p>
-          <p>
+                <span>JavaScript</span>.
+              </p>
+              
+                       <div className="hero-content-cta">
+                    <p>
             Fancy a chat?{" "}
             <a href="#">
               Let's talk
@@ -25,6 +29,13 @@ const Hero = () => {
               />
             </a>
           </p>
+            </div>
+            </div>
+ 
+          </div>
+      
+     
+    
           <div className="hero-social-links">
             <ul className="hero-social-links-list">
               <li>
