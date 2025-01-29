@@ -1,23 +1,14 @@
 .contact-container {
-  border: solid red 1px;
-  padding: 20px;
+  padding: 200px 20px;
 }
 
 .contact {
   max-width: 1400px;
   margin: 0 auto;
-  border: solid red 1px;
-  padding: 300px 0;
-    
-}
-
-.contact > * {
-  border: solid red 1px;
 }
 
 .contact h3 {
   font-size: 30px;
-  border: solid red 1px;
 }
 
 .contact-social-list {
@@ -25,22 +16,17 @@
   display: flex;
   width: 250px;
   align-self: flex-end;
-  border: solid red 1px;
 }
 
 .contact a {
   text-decoration: none;
   color: black;
-  border: solid red 1px;
 }
 
-.contact-description {
-  border: solid red 1px;
-}
+
 
 @media only screen and (min-width: 800px) {
   .contact {
     max-width: 600px;
-    border: solid red 1px;
   }
 }

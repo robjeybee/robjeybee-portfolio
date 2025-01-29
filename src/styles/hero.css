@@ -1,88 +1,101 @@
+.hero-container {}
+
 .hero {
-  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  padding: 75px 40px;
-} 
+  background-color: #ffd700;
+}
 
-.hero-content > *  {
-  padding-bottom: 16px;
 
+.hero-content-intro img {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 50px;
 }
 
 .hero-content {
-    border-bottom: 1px solid black;
-    padding-bottom: 50px;
+  text-align: center;
 }
 
-.hero-content-cta {
-  padding: 30px 0;
+.hero-content-intro h1 {
+font-size: 20px;
+width: 350px;
+margin: 0 auto;
 }
 
-.hero h1 {
-  font-size: 22px;
-}
-
-.hero p {
+.hero-content-intro h1, p {
+  margin-bottom: 16px;
   line-height: 26px;
-}
-
-.hero img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-span {
-  font-weight: bold;
-}
-
-.fa-arrow-up-long {
-  transform: rotate(45deg);
-  padding: 0 7px;
-  color: black;
-}
-
-.hero a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
 }
 
 .hero-social-links {
   display: none;
 }
 
+.hero-content-cta {
+  text-decoration: none;
+}
+
+.hero-content-cta a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
 @media only screen and (min-width: 800px) {
-  .hero h1 {
-    font-size: 40px;
-    line-height: 52px;
-    border: solid red 1px;
+  .hero {
+    max-width: 1080px;
+    margin: 0 auto;
   }
 
-  .hero p {
-    font-size: 28px;
-    line-height: 36px;
-    width: 1000px;
-    border: solid red 1px;
-  }
-
-  .hero-social-links {
+  .hero-content {
     display: flex;
-    border: solid red 1px;
-  }
-  .hero-social-links li {
-    list-style: none;
-    flex-direction: row;
-    border: solid red 1px;
+    flex-direction: column;
+    gap: 200px;
   }
 
-  .hero-social-links-list {
-    display: flex;
-    align-self: flex-end;
-    border: solid red 1px;
-  }
+    .hero-content-intro > * {
+      margin-bottom: 10px;
+    }
+
+        .hero-content-intro h1 {
+          font-size: 40px;
+          width: 1080px;
+          line-height: normal;
+        }
+
+                .hero-content-intro p {
+                  font-size: 20px;
+                  line-height: normal;
+                  width: 800px;
+                  margin: 0 auto;
+                }
+
+                .hero-content-cta {
+                  margin-top: 20px;
+                }
+
+    .hero-social-links {
+      display: block;
+      
+    }
+
+    .hero-social-links-list {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 100px;
+      text-decoration: none;
+    }
+
+        .hero-social-links-list a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+        }
 }

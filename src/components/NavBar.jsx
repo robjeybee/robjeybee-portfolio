@@ -72,22 +72,22 @@ const Header = () => {
         </ul>
         <ul className="mobile-social-icons">
           <li>
-            <a href="#">
+            <a  href="https://www.linkedin.com/in/robjeybee/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/robjeybee" target="_blank">
               <FontAwesomeIcon icon={faSquareGithub} />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9" target="_blank">
               <FontAwesomeIcon icon={faSpotify} />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://mybootcampdiary.hashnode.dev/" target="_blank">
               <FontAwesomeIcon icon={faHashnode} />
             </a>
           </li>

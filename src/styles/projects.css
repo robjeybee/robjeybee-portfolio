@@ -3,13 +3,18 @@
 }
 
 .projects {
-  border-bottom: 1px solid black; 
+  border-bottom: 1px solid black;
 }
 
 .project-intro p {
   font-size: 18px;
   line-height: 30px;
 }
+
+.project-intro h2 {
+  padding-bottom: 20px;
+}
+
 
 .projects img {
   width: 100%;
@@ -22,6 +27,10 @@
   text-decoration: none;
   font-weight: bold;
   color: black;
+} 
+
+.project-cards > * {
+  padding-bottom: 60px;
 }
 
 .project-description {
@@ -41,24 +50,26 @@
 }
 
 @media only screen and (min-width: 800px) {
+  .project-intro {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
   .projects img {
     width: 1080px;
     height: 600px;
     max-width: 100%;
-    border: solid red 1px;
   }
 
   .projects {
     max-width: 1400px;
     padding: 25px;
     margin: 0 auto;
-    border: solid red 1px;
   }
 
   .primary-project {
     max-width: 1080px;
     margin: 0 auto;
-    border: solid red 1px;
   }
 
   .secondary-projects {
@@ -66,19 +77,9 @@
     gap: 40px;
     max-width: 1080px;
     margin: 0 auto;
-    padding-top: 50px;
-    border: solid red 1px;
   }
 
   .secondary-projects img {
     height: 500px;
-    border: solid red 1px;
-  }
-
-  .project-intro {
-    text-align: center;
-    max-width: 1080px;
-    margin: 0 auto;
-    border: solid red 1px;
   }
 }

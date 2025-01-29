@@ -97,7 +97,6 @@
 @media only screen and (min-width: 800px) {
   .desktop-nav {
     display: inline-block;
-    border: solid red 1px;
   }
 
   .desktop-nav ul {
@@ -105,13 +104,16 @@
     justify-content: space-between;
     list-style: none;
     width: 300px;
-    border: solid red 1px;
   }
 
   .desktop-nav li {
     font-weight: bold;
-    border: solid red 1px;
   }
+
+        .desktop-nav a {
+          text-decoration: none;
+          color: black;
+        }
 
   .nav-hamburger-toggle {
     display: none;

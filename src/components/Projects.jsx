@@ -8,7 +8,7 @@ const Projects = () => {
     <>
       <div className="projects-container" id="projects">
         <div className="projects">
-          <div className="project-intro" >
+          <div className="project-intro">
             <h2>my projects</h2>
             <p>
               Dive into my collection of creations, each project is a stepping

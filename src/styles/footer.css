@@ -1,15 +1,8 @@
 .footer-container {
   border-top: 1px solid black;
-  border: solid red 1px;
 }
 
 .footer {
   text-align: center;
-  border: solid red 1px;
-  padding: 300px 0;
-
 }
 
-.footer > * {
-  border: solid red 1px;
-}

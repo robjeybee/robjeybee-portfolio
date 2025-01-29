@@ -8,7 +8,7 @@ const Blogs = () => {
     <>
       <div className="blogs-container" id="blogs">
         <div className="blogs">
-          <div className="blog-intro" >
+          <div className="blog-intro">
             <h2>articles and podcasts</h2>
             <p>
               Explore a collection of articles and engaging podcasts designed to
