@@ -1,5 +1,5 @@
 .header-container {
-  background-color: #f7f4f3;
+  background-color: #ffffff;
   width: 100%;
   z-index: 10;
   top: 0;
@@ -12,14 +12,20 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f7f4f3;
+  background-color: #ffffff;
   z-index: 10;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .nav-logo {
-  font-size: 22px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-logo h1 {
+  font-weight: 600;
 }
 
 .fa-bars {
@@ -109,11 +115,11 @@
     font-weight: 500;
   }
 
-        .desktop-nav a {
-          text-decoration: none;
-          color: black;
-          font-size: 18ox;
-        }
+  .desktop-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
 
   .nav-hamburger-toggle {
     display: none;

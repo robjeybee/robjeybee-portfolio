@@ -1,4 +1,5 @@
 .blogs {
-    height: calc(100vh - 67px);
-        background-color: rgb(255, 0, 93);
+  height: calc(100vh - 67px);
+  background-color: rgb(255, 0, 93);
+  margin-top: 100px;
 }

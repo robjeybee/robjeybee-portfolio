@@ -25,7 +25,9 @@ const Header = () => {
       <div className="header-container">
         <div className="header">
           <nav className="nav">
-            <a href="#home"><h1 className="nav-logo">robjeybee</h1></a>
+            <a className="nav-logo" href="#home">
+              <h1>robjeybee</h1>
+            </a>
           </nav>
           <div className="desktop-nav">
             <ul>
@@ -72,7 +74,7 @@ const Header = () => {
         </ul>
         <ul className="mobile-social-icons">
           <li>
-            <a  href="https://www.linkedin.com/in/robjeybee/" target="_blank">
+            <a href="https://www.linkedin.com/in/robjeybee/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
@@ -82,7 +84,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9" target="_blank">
+            <a
+              href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faSpotify} />
             </a>
           </li>

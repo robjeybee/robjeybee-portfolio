@@ -1,10 +1,12 @@
-import React from 'react'
-import '../styles/blogs.css'
+import React from "react";
+import "../styles/blogs.css";
 
 const Blogs = () => {
   return (
-    <div className='blogs' id='blogs'>Blogs</div>
-  )
-}
+    <div className="blogs" id="blogs">
+      Blogs
+    </div>
+  );
+};
 
-export default Blogs
+export default Blogs;

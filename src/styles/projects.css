@@ -1,17 +1,85 @@
 .projects {
-    height: calc(100vh - 68px);
-        background-color: yellow;
-        margin-top: 100px;
+  margin-top: 100px;
+  padding: 20px;
 }
 
 .project-content {
-    height: inherit;
-    text-align: center;
-    border-bottom: 1px rgba(0, 0, 0, 0.268) solid;
+  border-bottom: 1px rgba(0, 0, 0, 0.268) solid;
+  padding-bottom: 100px;
+}
+
+.projects-intro *,
+.main-project *,
+.secondary-project1,
+.secondary-project2 {
+  padding-bottom: 20px;
+}
+
+.main-project-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.projects-intro {
+  margin-bottom: 20px;
+}
+
+.main-project {
+    padding-bottom: 50px;
+}
+
+.secondary-projects {
+  margin-top: 50px;
+}
+
+.secondary-project1-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.secondary-project2-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.secondary-project1 *,
+.secondary-project2 * {
+  margin-bottom: 20px;
+}
+
+.secondary-project1 {
+  padding-bottom: 100px;
 }
 
 @media screen and (min-width: 600px) {
-    .projects {
-        margin-top: 250px;
-    }
+  .projects {
+    margin-top: 250px;
+  }
+
+  .project-content {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .secondary-projects {
+    display: flex;
+    gap: 40px;
+  }
+
+  .secondary-project1 .secondary-project2 {
+    width: 500px;
+    height: 500px;
+  }
+
+  .secondary-project2-img,
+  .secondary-project1-img {
+    height: 500px;
+  }
+
+  .main-project-img {
+    height: 500px;
+  }
 }
