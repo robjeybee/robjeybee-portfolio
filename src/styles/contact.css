@@ -1,0 +1,9 @@
+.contact-content {
+    padding: 20px;
+    margin: 200px 0;
+}
+
+.contact-content * {
+    padding-bottom: 20px;
+}
+
