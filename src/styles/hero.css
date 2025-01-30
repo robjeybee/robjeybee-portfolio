@@ -10,11 +10,11 @@
     height: inherit;
     text-align: center;
     border-bottom: 1px rgba(0, 0, 0, 0.216) solid;
-    padding: 150px 0; 
+    padding: 100px 0; 
 }
 
 .hero-content * {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero-content h1 {
@@ -29,6 +29,7 @@
 .hero-img {
     width: 180px;
     border-radius: 50%;
+    margin-bottom: 40px;
 }
 
 @media screen and (min-width: 600px) {
