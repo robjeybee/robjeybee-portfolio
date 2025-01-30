@@ -1,25 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Wix Madefor Display", serif;
-}
-
-:root {
-  --primary-font-color: #282825;
-  --accent-color: #8d9199;
-  --cta-btn-color: #f7cd45;
-  --btn-hover-color: #23a094;
-  --stack-list-color: #e94c89;
-  --blog-accent-color: #91a8ed;
-  --alternate-bg-color: #ebebeb;
-  --project-bg-color-1: #23a094;
+  font-family: "Montserrat", serif;
 }
 
 body {
   position: relative;
-  top: 70px;
+  top: 67px;
 }
 
 html {
