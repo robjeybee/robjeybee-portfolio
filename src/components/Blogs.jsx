@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/blogs.css";
+import "../styles/index.css";
 
 const Blogs = () => {
   return (
     <>
-      <div className="blogs" id="blogs">
-        <div className="blogs-content">
+      <div className="mobile-container desktop-container" id="blogs">
+        <div className="mobile-content-container desktop-content-container">
           <div className="blogs-intro">
             <h2>articles and podcasts</h2>
             <p>
@@ -17,7 +18,7 @@ const Blogs = () => {
           <div className="blog-cards">
             <div className="blogs-codewords">
               <img
-                className="blogs-codewords-img"
+                className="mobile-blogs-img desktop-blogs-img"
                 src="/codewords-logo.png"
                 alt=""
               />
@@ -32,7 +33,7 @@ const Blogs = () => {
             </div>
             <div className="blogs-codewords">
               <img
-                className="blogs-codewords-img"
+                className="mobile-blogs-img desktop-blogs-img"
                 src="/codewords-logo.png"
                 alt=""
               />
@@ -48,6 +49,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
+      <div className="mobile-line-break desktop-line-break"></div>
     </>
   );
 };

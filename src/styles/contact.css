@@ -1,49 +1,6 @@
-.contact-content {
-  padding: 20px;
-  margin: 200px 0;
-}
-
-.contact-content ul {
-  display: flex;
-  width: 100%;
-}
-
-.contact-content * {
-  padding-bottom: 20px;
-}
-
-.contact-content li {
+.content-card ul {
   list-style: none;
-  margin-right: 10px;
-  padding: 0;
-}
-
-.contact-content a {
-  text-decoration: none;
-  font-size: 36px;
-  color: black;
-  font-weight: 600;
-  padding: 50px 0;
 }
 
 @media only screen and (min-width: 800px) {
-  .contact-content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 200px 0;
-  }
-
-  .contact-content a {
-    font-size: 80px;
-  }
-
-   .contact-content p {
-    font-size: 20px;
-   }
-
-  .contact-content li {
-    font-weight: 500;
-    margin-right: 50px;
-    padding-top: 30px;
-  }
 }

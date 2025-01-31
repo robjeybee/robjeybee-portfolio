@@ -14,3 +14,46 @@ body {
 html {
   scroll-padding-top: 69px;
 }
+
+:root {
+  --line-break-color: #e6e6e6;
+}
+
+.mobile-container {
+  padding: 50px 0;
+  margin: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-content-container {
+  text-align: center;
+}
+
+.mobile-content-container * {
+  margin-bottom: 16px;
+}
+
+.mobile-line-break {
+  border: 1px solid var(--line-break-color);
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .desktop-container {
+    padding: 100px 0;
+    margin: 100px 0;
+  }
+
+  .desktop-content-container {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+
+  .desktop-line-break {
+    max-width: 1200px;
+    margin: auto;
+  }
+}

@@ -1,48 +1,10 @@
-.blogs {
-  margin-top: 100px;
-  padding: 20px;
-}
-
-.blogs-intro {
-  margin-bottom: 20px;
-}
-
-.blogs-intro * {
-  padding-bottom: 20px;
-}
-
-.blogs-content {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.237);
-}
-
-.blogs-codewords-img {
+.mobile-blogs-img {
   width: 100%;
-  height: 350px;
-  object-fit: cover;
-}
-
-.blogs-codewords *,
-.blogs-hashnode * {
-  margin-bottom: 20px;
-}
-
-.blogs-codewords {
-  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 600px) {
-
-  .blogs-content {
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-
   .blog-cards {
     display: flex;
     gap: 40px;
-  }
-
-  .blogs-codewords-img {
-    height: 500px;
   }
 }
