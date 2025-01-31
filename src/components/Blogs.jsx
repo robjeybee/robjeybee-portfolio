@@ -8,19 +8,41 @@ const Blogs = () => {
         <div className="blogs-content">
           <div className="blogs-intro">
             <h2>articles and podcasts</h2>
-            <p>Explore a collection of articles and engaging podcasts designed to inspire and support your coding journey. From personal stories to expert advice, there’s something here for every developer.</p>
+            <p>
+              Explore a collection of articles and engaging podcasts designed to
+              inspire and support your coding journey. From personal stories to
+              expert advice, there’s something here for every developer.
+            </p>
           </div>
           <div className="blog-cards">
             <div className="blogs-codewords">
-              <img className="blogs-codewords-img" src="/codewords-logo.png" alt="" />
+              <img
+                className="blogs-codewords-img"
+                src="/codewords-logo.png"
+                alt=""
+              />
               <h2>Codewords</h2>
-              <p>A podcast for developers by developers. Join us for an informal coffee chat with code newbies, senior engineers and more. Wherever you are on your unique coding journey, we’ve got you covered.</p>
+              <p>
+                A podcast for developers by developers. Join us for an informal
+                coffee chat with code newbies, senior engineers and more.
+                Wherever you are on your unique coding journey, we’ve got you
+                covered.
+              </p>
               <a href="#">Listen here</a>
             </div>
-                <div className="blogs-codewords">
-              <img className="blogs-codewords-img" src="/codewords-logo.png" alt="" />
+            <div className="blogs-codewords">
+              <img
+                className="blogs-codewords-img"
+                src="/codewords-logo.png"
+                alt=""
+              />
               <h2>Codewords</h2>
-              <p>A podcast for developers by developers. Join us for an informal coffee chat with code newbies, senior engineers and more. Wherever you are on your unique coding journey, we’ve got you covered.</p>
+              <p>
+                A podcast for developers by developers. Join us for an informal
+                coffee chat with code newbies, senior engineers and more.
+                Wherever you are on your unique coding journey, we’ve got you
+                covered.
+              </p>
               <a href="#">Listen here</a>
             </div>
           </div>
