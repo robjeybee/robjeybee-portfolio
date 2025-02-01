@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <div className="mobile-container desktop-container">
-        <div className="mobile-content-container desktop-content-container">
+        <div className="mobile-content-container desktop-content-container text-align-center">
           <div>
             <h3>Rob Barber</h3>
             <p>junior fullstack developer</p>
