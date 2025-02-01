@@ -35,7 +35,7 @@ const Blogs = () => {
             <div className="blogs-codewords">
               <img
                 className="mobile-blogs-img desktop-blogs-img"
-                src="/public/bootcamp-logo.png"
+                src="/bootcamp-logo.png"
                 alt=""
               />
               <h2>Hashnode</h2>
