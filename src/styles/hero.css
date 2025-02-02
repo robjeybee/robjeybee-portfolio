@@ -1,7 +1,12 @@
 .hero-img {
   width: 180px;
   border-radius: 50%;
+  margin-top: -40px;
   margin-bottom: 40px;
+}
+
+.desktop-h1 {
+  font-weight: 500;
 }
 
 .hero-cta {
@@ -10,13 +15,16 @@
 
 @media screen and (min-width: 600px) {
   .desktop-h1 {
-      font-size: 70px;
-      max-width: 80%;
-      margin: 0 auto;
-    }
+    font-size: 70px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
 
-        .hero-cta {
-          margin-top: 20px;
-        }
+  .hero-cta {
+    margin-top: 20px;
+  }
+
+  .hero-img {
+    margin-top: 0;
+  }
 }
-

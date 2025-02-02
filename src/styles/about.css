@@ -14,9 +14,9 @@
   color: black;
 }
 
- .robsadev-cta {
-   font-size: 18px;
- } 
+.robsadev-cta {
+  font-size: 18px;
+}
 
 @media only screen and (min-width: 800px) {
   .mobile-about-img {
@@ -37,9 +37,7 @@
     gap: 40px;
   }
 
-    
-
-    .robsadev-cta {
-      font-size: 20px;
-    }
+  .robsadev-cta {
+    font-size: 20px;
+  }
 }

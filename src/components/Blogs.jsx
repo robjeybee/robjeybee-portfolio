@@ -10,11 +10,13 @@ const Blogs = () => {
           <div className="blogs-intro margin-bottom text-align-center text-align-left">
             <h2 className="font-size-40">articles and podcasts</h2>
             <div className="desktop-container-70pc">
-                  <p className="font-size-20 line-height-30 line-height-26">
-                Explore a collection of articles I've written and a podcast I've produced and hosted, all focused on supporting people on their coding journeys. From personal stories to expert advice, there’s something here for every developer.
-            </p>
+              <p className="font-size-20 line-height-30 line-height-26">
+                Explore a collection of articles I've written and a podcast I've
+                produced and hosted, all focused on supporting people on their
+                coding journeys. From personal stories to expert advice, there’s
+                something here for every developer.
+              </p>
             </div>
-        
           </div>
           <div className="blog-cards">
             <div className="blogs-codewords margin-bottom">
@@ -30,7 +32,13 @@ const Blogs = () => {
                 Wherever you are on your unique coding journey, we’ve got you
                 covered.
               </p>
-              <a className="cta-link line-height-26" href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9?si=714fead54207405c" target="_blank">Listen here</a>
+              <a
+                className="cta-link line-height-26"
+                href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9?si=714fead54207405c"
+                target="_blank"
+              >
+                Listen here
+              </a>
             </div>
             <div className="blogs-codewords">
               <img
@@ -40,9 +48,17 @@ const Blogs = () => {
               />
               <h2>Hashnode</h2>
               <p className="font-size-20 line-height-30 line-height-26">
-                Join me on this transformative journey as I document my Command Shift bootcamp experience, sharing the highs, the hurdles, and everything I learned along the way. 
+                Join me on this transformative journey as I document my Command
+                Shift bootcamp experience, sharing the highs, the hurdles, and
+                everything I learned along the way.
               </p>
-              <a className="cta-link line-height-26" href="https://mybootcampdiary.hashnode.dev/" target="_blank">Read more</a>
+              <a
+                className="cta-link line-height-26"
+                href="https://mybootcampdiary.hashnode.dev/"
+                target="_blank"
+              >
+                Read more
+              </a>
             </div>
           </div>
         </div>

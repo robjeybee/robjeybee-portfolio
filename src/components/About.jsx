@@ -28,13 +28,30 @@ const About = () => {
               </p>
               <p className="font-size-20 line-height-30 line-height-26">
                 You can follow my workflow and updates on{" "}
-                <a className="cta-link robsadev-cta" href="https://www.linkedin.com/in/robjeybee/" target="_blank">LinkedIn</a> using the hashtag{" "}
-                <a className="cta-link robsadev-cta" href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAD8Y5xgBjBjvLNEsbXo-E_ty_6wyu8rTXMc&keywords=%23robsadev&origin=GLOBAL_SEARCH_HEADER&sid=o~m" target="_blank">
+                <a
+                  className="cta-link robsadev-cta"
+                  href="https://www.linkedin.com/in/robjeybee/"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>{" "}
+                using the hashtag{" "}
+                <a
+                  className="cta-link robsadev-cta"
+                  href="https://www.linkedin.com/search/results/all/?heroEntityKey=urn%3Ali%3Afsd_profile%3AACoAAD8Y5xgBjBjvLNEsbXo-E_ty_6wyu8rTXMc&keywords=%23robsadev&origin=GLOBAL_SEARCH_HEADER&sid=o~m"
+                  target="_blank"
+                >
                   #robsadev
                 </a>
                 .
               </p>
-              <a className="font-size-20 line-height-30 about-cta robsadev-cta" href="mailto:rob@robjeybee.com" target="_blank">Email me</a>
+              <a
+                className="font-size-20 line-height-30 about-cta robsadev-cta"
+                href="mailto:rob@robjeybee.com"
+                target="_blank"
+              >
+                Email me
+              </a>
             </div>
             <div>
               <img className="desktop-about-img" src="/Rob .png" alt="" />

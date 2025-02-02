@@ -11,15 +11,12 @@
   font-weight: 400;
 }
 
-
-
 @media only screen and (min-width: 800px) {
   .contact-cta {
     font-size: 60px;
   }
 
-    .content-card h2 {
-      margin-bottom: 20px;
-
-    }
+  .content-card h2 {
+    margin-bottom: 20px;
+  }
 }
