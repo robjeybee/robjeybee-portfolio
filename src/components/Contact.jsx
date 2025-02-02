@@ -27,7 +27,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="mobile-line-break desktop-line-break"></div>
     </>
   );
 };

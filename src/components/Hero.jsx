@@ -16,9 +16,7 @@ const Hero = () => {
           </h1>
           <div className="desktop-container-70pc">
             <p className="font-size-20 line-height-30 line-height-26">
-              Specialising in React and JavaScript, with a background in public
-              relations and communications, I bring strong problem-solving and
-              communication skills to building dynamic web applications.
+              Specialising in React and JavaScript, I bring strong problem-solving and communication skills. With a background in PR, I build dynamic web applications.
               <p className="hero-cta">
                 <a className="cta-link" href="#">
                   Fancy a chat? Let's talk
