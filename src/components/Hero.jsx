@@ -5,7 +5,7 @@ import "../styles/index.css";
 const Hero = () => {
   return (
     <>
-      <div className="mobile-container desktop-container" id="home">
+      <div className="mobile-container desktop-container">
         <div
           className="mobile-content-container desktop-content-container mobile-text-align-center"
           id="home"

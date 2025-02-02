@@ -25,7 +25,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header">
           <nav className="nav">
-            <a className="nav-logo" href="#home">
+            <a className="nav-logo" href="#">
               <h1>robjeybee</h1>
             </a>
           </nav>
