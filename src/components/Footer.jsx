@@ -25,19 +25,19 @@ const Footer = () => {
             </div>
             <div className="footer-icons">
               <a href="https://www.linkedin.com/in/robjeybee/" target="_blank">
-                            <FontAwesomeIcon icon={faLinkedin} />
+                            <FontAwesomeIcon icon={faLinkedin} className="footer-icon"/>
                           </a>
               <a href="https://github.com/robjeybee" target="_blank">
-                            <FontAwesomeIcon icon={faSquareGithub} />
+                            <FontAwesomeIcon icon={faSquareGithub} className="footer-icon"/>
                           </a>
               <a
                             href="https://open.spotify.com/show/1wX67b5fhcWK4TSB6ZGFO9"
                             target="_blank"
                           >
-                            <FontAwesomeIcon icon={faSpotify} />
+                            <FontAwesomeIcon icon={faSpotify} className="footer-icon"/>
               </a>
               <a href="https://mybootcampdiary.hashnode.dev/" target="_blank">
-                            <FontAwesomeIcon icon={faHashnode} />
+                            <FontAwesomeIcon icon={faHashnode} className="footer-icon"/>
                           </a>
 
             </div>

@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="font-size-20 line-height-30 line-height-26">
               Specialising in React and JavaScript, I bring strong problem-solving and communication skills. With a background in PR, I build dynamic web applications.
               <p className="hero-cta">
-                <a className="cta-link" href="#">
+                <a className="cta-link" href="#contact">
                   Fancy a chat? Let's talk
                 </a>
               </p>

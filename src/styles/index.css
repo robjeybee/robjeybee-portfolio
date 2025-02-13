@@ -71,7 +71,7 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 786px) {
   .desktop-container {
     padding: 100px 0;
     margin: 100px 0;
@@ -118,4 +118,11 @@ html {
   .desktop-container-50pc {
     max-width: 50%;
   }
+}
+
+@media screen and (min-width: 600px) {
+    .desktop-container {
+      max-width: 90%;
+      margin: auto;
+    }
 }
